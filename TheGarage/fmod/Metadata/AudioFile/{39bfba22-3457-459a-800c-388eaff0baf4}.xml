@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{39bfba22-3457-459a-800c-388eaff0baf4}">
+		<property name="assetPath">
+			<value>Children03.mp3</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>6.4261224489795916</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{7b4338dc-cb63-4e76-8b3a-689d8b44ddcd}</destination>
+		</relationship>
+	</object>
+</objects>
