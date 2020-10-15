@@ -1,40 +1,69 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.XR;
+using UnityEngine.XR.Interaction.Toolkit;
 
 public class ControllerMovement : MonoBehaviour
 {
-    [SerializeField] private InputDeviceCharacteristics inputDeviceCharacteristics;
-    [SerializeField] private Transform XrRig;
-    [SerializeField] private Transform Camera;
-    [SerializeField, Range(0f,2f)] private float speed=0.5f;
-    private InputDevice targetDevice;
+    [SerializeField] private XRNode inputSource;
+    [SerializeField] [Range(0f, 5f)] private float speed = 1f;
+    [SerializeField] private float gravity = -9.81f;
+    [SerializeField] private LayerMask groundLayer;
+    [SerializeField] private float additionalHeight = 0.2f;
 
-    // Start is called before the first frame update
-    void Start()
+    private Vector2 inputAxis;
+    private CharacterController character;
+    private XRRig xrRig;
+    private float fallingspeed;
+
+    private void Start()
     {
-        List<InputDevice> devices = new List<InputDevice>();
-        InputDevices.GetDevicesWithCharacteristics(inputDeviceCharacteristics, devices);
-          if (devices.Count > 0)
-        {
-            targetDevice = devices[0];
-        }
+        character = GetComponent<CharacterController>();
+        xrRig = GetComponent<XRRig>();
     }
 
-    // Update is called once per frame
-    void Update()
+    private void FixedUpdate()
     {
-        if (targetDevice.TryGetFeatureValue(CommonUsages.primary2DAxis, out Vector2 triggerValue) && triggerValue != Vector2.zero)
+        CapsuleFollowHeadset();
+        
+        Quaternion headYaw = Quaternion.Euler(0, xrRig.cameraGameObject.transform.eulerAngles.y, 0);
+        Vector3 direction = headYaw * new Vector3(inputAxis.x, 0, inputAxis.y);
+        character.Move(direction * (Time.fixedDeltaTime * speed));
+
+        // Gravity
+        bool isGrounded = CheckIfGrounded();
+        if (isGrounded)
         {
-            // Vector3 vec = Camera.forward * ;
-              
-            //XrRig.Translate(new Vector3(vec.x, XrRig.position.y, vec.z), Space.World);
-            XrRig.Translate(-triggerValue.y * speed, 0, 0);
-            XrRig.Translate(0, 0, triggerValue.x * speed);
-            
+            fallingspeed = 0;
         }
-       
+        else
+        {
+            fallingspeed += gravity * Time.fixedDeltaTime;
+        }
+
+        character.Move(Vector3.up * (fallingspeed * Time.fixedDeltaTime));
+    }
+
+    private void Update()
+    {
+        InputDevice device = InputDevices.GetDeviceAtXRNode(inputSource);
+        device.TryGetFeatureValue(CommonUsages.primary2DAxis, out inputAxis);
+    }
+
+    private bool CheckIfGrounded()
+    {
+        Vector3 rayStart = transform.TransformPoint(character.center);
+        float rayLength = character.center.y + 0.01f;
+
+        bool hasHit = Physics.SphereCast(rayStart, character.radius, Vector3.down, out RaycastHit hitInfo, rayLength, groundLayer);
+
+        return hasHit;
+    }
+
+    private void CapsuleFollowHeadset()
+    {
+        character.height = xrRig.cameraInRigSpaceHeight + additionalHeight;
+        Vector3 capsuleCenter = transform.InverseTransformPoint(xrRig.cameraGameObject.transform.position);
+        character.center = new Vector3(capsuleCenter.x, character.height / 2 + character.skinWidth, capsuleCenter.z);
     }
 }
 
