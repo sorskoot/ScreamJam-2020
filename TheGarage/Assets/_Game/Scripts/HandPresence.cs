@@ -6,24 +6,24 @@ using UnityEngine.XR;
 public class HandPresence : MonoBehaviour
 {
     [SerializeField] private GameObject HandModel;
-    [SerializeField] private InputDeviceCharacteristics inputDeviceCharacteristics;
+    [SerializeField] private XRNode inputSource;
     private GameObject handModelInstance;
-    private InputDevice targetDevice;
+    //private InputDevice targetDevice;
 
     private Animator animator;
     // Start is called before the first frame update
     void Start()
     {
-        List<InputDevice> devices = new List<InputDevice>();
-        InputDevices.GetDevicesWithCharacteristics(inputDeviceCharacteristics, devices);
-        foreach (var item in devices)
-        {
-            Debug.Log(item.name);
-        }
-        if (devices.Count > 0)
-        {
-            targetDevice = devices[0];
-        }
+        //List<InputDevice> devices = new List<InputDevice>();
+        //InputDevices.GetDevicesWithCharacteristics(inputDeviceCharacteristics, devices);
+        //foreach (var item in devices)
+        //{
+        //    Debug.Log(item.name);
+        //}
+        //if (devices.Count > 0)
+        //{
+        //    targetDevice = devices[0];
+        //}
 
         handModelInstance = Instantiate(HandModel, transform);
         animator = handModelInstance.GetComponent<Animator>();
@@ -32,6 +32,8 @@ public class HandPresence : MonoBehaviour
 
     void UpdateHandAnimation()
     {
+
+        var targetDevice = InputDevices.GetDeviceAtXRNode(inputSource);
         if (targetDevice.TryGetFeatureValue(CommonUsages.trigger, out float triggerValue) && triggerValue > 0.1f)
         {
             animator.SetFloat("Trigger", triggerValue);
@@ -51,6 +53,7 @@ public class HandPresence : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        
         UpdateHandAnimation();
         // if (targetDevice.TryGetFeatureValue(CommonUsages.primaryButton, out bool primaryButtonValue) && primaryButtonValue)
         // {
