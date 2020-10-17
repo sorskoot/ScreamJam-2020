@@ -29058,7 +29058,7 @@ MonoBehaviour:
   m_PoseProviderComponent: {fileID: 0}
   m_TrackingType: 0
   m_UpdateType: 0
-  m_UseRelativeTransform: 0
+  m_UseRelativeTransform: 1
 --- !u!1001 &970449694
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -58684,7 +58684,7 @@ MonoBehaviour:
   m_CameraGameObject: {fileID: 963194225}
   m_TrackingOriginMode: 2
   m_TrackingSpace: 3
-  m_CameraYOffset: 1.36144
+  m_CameraYOffset: 1.6
 --- !u!4 &1911867896
 Transform:
   m_ObjectHideFlags: 0
@@ -58694,7 +58694,7 @@ Transform:
   m_GameObject: {fileID: 1911867894}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
   m_LocalPosition: {x: -15.25, y: 0, z: 16.75}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1, y: 0.8, z: 1}
   m_Children:
   - {fileID: 1995897937}
   m_Father: {fileID: 0}
@@ -58718,7 +58718,7 @@ MonoBehaviour:
   groundLayer:
     serializedVersion: 2
     m_Bits: 256
-  additionalHeight: 0.2
+  additionalHeight: 0
 --- !u!143 &1911867898
 CharacterController:
   m_ObjectHideFlags: 0
@@ -58730,7 +58730,7 @@ CharacterController:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Height: 2
+  m_Height: 1.7
   m_Radius: 0.15
   m_SlopeLimit: 45
   m_StepOffset: 0.3
