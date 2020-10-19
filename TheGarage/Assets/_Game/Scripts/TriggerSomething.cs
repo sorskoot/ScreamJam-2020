@@ -18,7 +18,7 @@ public class TriggerSomething : MonoBehaviour
         }
 
         hasTriggered = true;
-        StartCoroutine(cameraShake.Shake(.5f, .2f));
-        StartCoroutine(darkness.Flicker(.15f, .2f));
+        StartCoroutine(cameraShake.Shake());
+        StartCoroutine(darkness.Flicker());
     }
 }

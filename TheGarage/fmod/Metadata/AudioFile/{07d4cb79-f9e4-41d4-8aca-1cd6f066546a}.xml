@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{07d4cb79-f9e4-41d4-8aca-1cd6f066546a}">
+		<property name="assetPath">
+			<value>Impacts/IMPACT_Incoming_Reverse_Crackle_Bang_02_mono.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>5.1678684807256232</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{7b4338dc-cb63-4e76-8b3a-689d8b44ddcd}</destination>
+		</relationship>
+	</object>
+</objects>
