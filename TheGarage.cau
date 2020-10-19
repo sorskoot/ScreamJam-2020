@@ -1,0 +1,1100 @@
+{
+    "formatVersion": 23,
+    "id": "{245f71f3-6c81-4045-b768-39db537b9c20}",
+    "objectLinks": {
+        "Character.researchObject": [
+            {
+                "id1": "{c598a1fa-3fed-4f91-a67c-a56f63affb2a}",
+                "id2": "{a232bcb8-86b6-4f44-9e24-96ee8c230443}",
+                "timeStamp": "2020-10-18T12:46:48Z"
+            }
+        ],
+        "Insertion.logicAlias": [
+            {
+                "id1": "{a73941a4-c870-4a41-930d-e997daec5fd0}",
+                "id2": "{eeb6e7f1-5d6a-4f26-8b1b-3fd16a1bee5e}",
+                "timeStamp": "2020-10-18T12:46:48Z"
+            }
+        ],
+        "Insertion.timeSlice": [
+            {
+                "id1": "{a73941a4-c870-4a41-930d-e997daec5fd0}",
+                "id2": "{d8798473-5ce1-49e3-82c6-b004dc4b9b0d}",
+                "timeStamp": "2020-10-18T12:46:48Z"
+            }
+        ],
+        "LogicAlias.logicObject": [
+            {
+                "id1": "{eeb6e7f1-5d6a-4f26-8b1b-3fd16a1bee5e}",
+                "id2": "{a886d2a1-8454-46fc-a3d8-e10cc8847607}",
+                "timeStamp": "2020-10-18T12:46:48Z"
+            }
+        ],
+        "LogicAlias.storyLine": [
+            {
+                "id1": "{eeb6e7f1-5d6a-4f26-8b1b-3fd16a1bee5e}",
+                "id2": "{27b47742-023f-47c3-8ee2-bf9306a992b4}",
+                "timeStamp": "2020-10-18T12:46:48Z"
+            }
+        ],
+        "LogicObject.researchObject": [
+            {
+                "id1": "{a886d2a1-8454-46fc-a3d8-e10cc8847607}",
+                "id2": "{97aa4a3f-9aab-467a-bed2-1f66aff8818c}",
+                "timeStamp": "2020-10-18T12:46:48Z"
+            }
+        ],
+        "ResearchObject.parentObject": [
+            {
+                "id1": "{0b711093-2449-4a55-8e15-ae8cf926ac69}",
+                "id2": "{7ef544a9-530e-4fd8-b3e3-0d63fa2b0ac2}",
+                "timeStamp": "2020-10-18T12:46:48Z"
+            },
+            {
+                "id1": "{33bbbe72-204e-496c-882b-c3bc826dc862}",
+                "id2": "{7ef544a9-530e-4fd8-b3e3-0d63fa2b0ac2}",
+                "timeStamp": "2020-10-18T12:46:48Z"
+            },
+            {
+                "id1": "{949cf58b-8967-4b78-8af9-417ba513d8ed}",
+                "id2": "{97aa4a3f-9aab-467a-bed2-1f66aff8818c}",
+                "timeStamp": "2020-10-18T12:46:48Z"
+            },
+            {
+                "id1": "{97aa4a3f-9aab-467a-bed2-1f66aff8818c}",
+                "id2": "{33bbbe72-204e-496c-882b-c3bc826dc862}",
+                "timeStamp": "2020-10-18T12:46:48Z"
+            },
+            {
+                "id1": "{a232bcb8-86b6-4f44-9e24-96ee8c230443}",
+                "id2": "{0b711093-2449-4a55-8e15-ae8cf926ac69}",
+                "timeStamp": "2020-10-18T12:46:48Z"
+            },
+            {
+                "id1": "{a26d37ed-0284-4794-baa4-eec16fdf0e01}",
+                "id2": "{7ef544a9-530e-4fd8-b3e3-0d63fa2b0ac2}",
+                "timeStamp": "2020-10-18T12:46:48Z"
+            },
+            {
+                "id1": "{f7e1f53d-be1d-4e23-9ea5-8cb7876c9c04}",
+                "id2": "{7ef544a9-530e-4fd8-b3e3-0d63fa2b0ac2}",
+                "timeStamp": "2020-10-18T12:46:48Z"
+            }
+        ],
+        "Snippet.researchObject": [
+            {
+                "id1": "{01e88c25-7e12-42f9-a204-040b73fc1e9f}",
+                "id2": "{949cf58b-8967-4b78-8af9-417ba513d8ed}",
+                "timeStamp": "2020-10-18T12:46:48Z"
+            }
+        ],
+        "Snippet.timeSlice": [
+            {
+                "id1": "{01e88c25-7e12-42f9-a204-040b73fc1e9f}",
+                "id2": "{d8798473-5ce1-49e3-82c6-b004dc4b9b0d}",
+                "timeStamp": "2020-10-18T12:46:48Z"
+            }
+        ],
+        "StoryLine.lane": [
+            {
+                "id1": "{27b47742-023f-47c3-8ee2-bf9306a992b4}",
+                "id2": "{c5277290-fd3b-495b-8b8a-043b49619771}",
+                "timeStamp": "2020-10-18T12:46:48Z"
+            }
+        ],
+        "StoryTrack.character": [
+            {
+                "id1": "{c598a1fa-3fed-4f91-a67c-a56f63affb2a}",
+                "id2": "{48d0ba3e-e008-44ac-ae3c-1d0414e662b3}",
+                "timeStamp": "2020-10-18T12:46:48Z"
+            }
+        ],
+        "Timeslice.primaryInsertion": [
+            {
+                "id1": "{a73941a4-c870-4a41-930d-e997daec5fd0}",
+                "id2": "{d8798473-5ce1-49e3-82c6-b004dc4b9b0d}",
+                "timeStamp": "2020-10-18T12:46:48Z"
+            }
+        ],
+        "TrackGroup.storyTrack": [
+            {
+                "id1": "{93ad9a0c-40e6-495a-b8b1-a0ec226ec280}",
+                "id2": "{48d0ba3e-e008-44ac-ae3c-1d0414e662b3}",
+                "timeStamp": "2020-10-18T12:46:48Z"
+            }
+        ]
+    },
+    "objectSettings": {
+        "characters": {
+            "{c598a1fa-3fed-4f91-a67c-a56f63affb2a}": {
+                "highlightOnPrint": false
+            }
+        },
+        "logicLanes": {
+            "{c5277290-fd3b-495b-8b8a-043b49619771}": {
+                "expanded": true,
+                "visible": true
+            }
+        },
+        "researchObjects": {
+            "{0b711093-2449-4a55-8e15-ae8cf926ac69}": {
+                "collapsed": false
+            },
+            "{33bbbe72-204e-496c-882b-c3bc826dc862}": {
+                "collapsed": false
+            },
+            "{7ef544a9-530e-4fd8-b3e3-0d63fa2b0ac2}": {
+                "collapsed": false
+            },
+            "{949cf58b-8967-4b78-8af9-417ba513d8ed}": {
+                "collapsed": false
+            },
+            "{97aa4a3f-9aab-467a-bed2-1f66aff8818c}": {
+                "collapsed": false
+            },
+            "{a232bcb8-86b6-4f44-9e24-96ee8c230443}": {
+                "collapsed": false
+            },
+            "{a26d37ed-0284-4794-baa4-eec16fdf0e01}": {
+                "collapsed": false
+            },
+            "{f7e1f53d-be1d-4e23-9ea5-8cb7876c9c04}": {
+                "collapsed": false
+            }
+        },
+        "storyLines": {
+            "{27b47742-023f-47c3-8ee2-bf9306a992b4}": {
+                "zOrder": 0
+            }
+        }
+    },
+    "objects": {
+        "characters": {
+            "{c598a1fa-3fed-4f91-a67c-a56f63affb2a}": {
+                "actorName": "",
+                "avatarBase64": "",
+                "bio": "",
+                "detectionWords": [
+                ],
+                "flags": "Flags.OF_None",
+                "id": "{c598a1fa-3fed-4f91-a67c-a56f63affb2a}",
+                "timeStamp": "2020-10-18T12:46:48Z"
+            }
+        },
+        "insertions": {
+            "{a73941a4-c870-4a41-930d-e997daec5fd0}": {
+                "amount": 1,
+                "dramaPulseScale": 1,
+                "flags": "Flags.OF_None",
+                "id": "{a73941a4-c870-4a41-930d-e997daec5fd0}",
+                "timeStamp": "2020-10-18T12:46:48Z"
+            }
+        },
+        "logicAliases": {
+            "{eeb6e7f1-5d6a-4f26-8b1b-3fd16a1bee5e}": {
+                "flags": "Flags.OF_None",
+                "id": "{eeb6e7f1-5d6a-4f26-8b1b-3fd16a1bee5e}",
+                "position": {
+                    "x": 0,
+                    "y": -50
+                },
+                "timeStamp": "2020-10-18T12:46:48Z"
+            }
+        },
+        "logicLanes": {
+            "{c5277290-fd3b-495b-8b8a-043b49619771}": {
+                "baseColor": "#ff457087",
+                "flags": "Flags.OF_None",
+                "id": "{c5277290-fd3b-495b-8b8a-043b49619771}",
+                "name": "Main Lane",
+                "timeStamp": "2020-10-18T12:46:48Z"
+            }
+        },
+        "logicObjects": {
+            "{a886d2a1-8454-46fc-a3d8-e10cc8847607}": {
+                "beatType": "BeatType.StoryBeat",
+                "description": "",
+                "flags": "Flags.OF_None",
+                "id": "{a886d2a1-8454-46fc-a3d8-e10cc8847607}",
+                "name": "First Beat",
+                "timeStamp": "2020-10-18T12:46:48Z"
+            }
+        },
+        "researchObjects": {
+            "{0b711093-2449-4a55-8e15-ae8cf926ac69}": {
+                "canvasPosition": {
+                    "x": 0,
+                    "y": 0
+                },
+                "flags": "Flags.OF_None",
+                "id": "{0b711093-2449-4a55-8e15-ae8cf926ac69}",
+                "timeStamp": "2020-10-18T12:46:48Z",
+                "title": "",
+                "type": "ResearchObjectType.CharactersFolder"
+            },
+            "{33bbbe72-204e-496c-882b-c3bc826dc862}": {
+                "canvasPosition": {
+                    "x": 0,
+                    "y": 0
+                },
+                "flags": "Flags.OF_None",
+                "id": "{33bbbe72-204e-496c-882b-c3bc826dc862}",
+                "timeStamp": "2020-10-18T12:46:48Z",
+                "title": "",
+                "type": "ResearchObjectType.UnsortedFolder"
+            },
+            "{7ef544a9-530e-4fd8-b3e3-0d63fa2b0ac2}": {
+                "canvasPosition": {
+                    "x": 0,
+                    "y": 0
+                },
+                "flags": "Flags.OF_None",
+                "id": "{7ef544a9-530e-4fd8-b3e3-0d63fa2b0ac2}",
+                "timeStamp": "2020-10-18T12:46:48Z",
+                "title": "",
+                "type": "ResearchObjectType.RootFolder"
+            },
+            "{949cf58b-8967-4b78-8af9-417ba513d8ed}": {
+                "canvasPosition": {
+                    "x": 0,
+                    "y": 0
+                },
+                "flags": "Flags.OF_None",
+                "id": "{949cf58b-8967-4b78-8af9-417ba513d8ed}",
+                "timeStamp": "2020-10-18T12:46:48Z",
+                "title": "",
+                "type": "ResearchObjectType.Item"
+            },
+            "{97aa4a3f-9aab-467a-bed2-1f66aff8818c}": {
+                "canvasPosition": {
+                    "x": 0,
+                    "y": 0
+                },
+                "flags": "Flags.OF_None",
+                "id": "{97aa4a3f-9aab-467a-bed2-1f66aff8818c}",
+                "timeStamp": "2020-10-18T12:46:48Z",
+                "title": "",
+                "type": "ResearchObjectType.Item"
+            },
+            "{a232bcb8-86b6-4f44-9e24-96ee8c230443}": {
+                "canvasPosition": {
+                    "x": 0,
+                    "y": 0
+                },
+                "flags": "Flags.OF_None",
+                "id": "{a232bcb8-86b6-4f44-9e24-96ee8c230443}",
+                "timeStamp": "2020-10-18T12:46:48Z",
+                "title": "",
+                "type": "ResearchObjectType.CharacterFolder"
+            },
+            "{a26d37ed-0284-4794-baa4-eec16fdf0e01}": {
+                "canvasPosition": {
+                    "x": 0,
+                    "y": 0
+                },
+                "flags": "Flags.OF_None",
+                "id": "{a26d37ed-0284-4794-baa4-eec16fdf0e01}",
+                "timeStamp": "2020-10-18T12:46:48Z",
+                "title": "",
+                "type": "ResearchObjectType.NewIdeasFolder"
+            },
+            "{f7e1f53d-be1d-4e23-9ea5-8cb7876c9c04}": {
+                "canvasPosition": {
+                    "x": 0,
+                    "y": 0
+                },
+                "flags": "Flags.OF_None",
+                "id": "{f7e1f53d-be1d-4e23-9ea5-8cb7876c9c04}",
+                "timeStamp": "2020-10-18T12:46:48Z",
+                "title": "",
+                "type": "ResearchObjectType.BoneyardFolder"
+            }
+        },
+        "snippets": {
+            "{01e88c25-7e12-42f9-a204-040b73fc1e9f}": {
+                "content": "<p class=\"action\">You stand in a corner of the parking garage. It's dark. There's a car upside down next to you. Was it yours? You can't remember you got here. You can't remember what's happened.</p><p class=\"action\"></p>",
+                "flags": "Flags.OF_None",
+                "forceSceneHeading": false,
+                "fullscreenState": "SnippetState.NoState",
+                "id": "{01e88c25-7e12-42f9-a204-040b73fc1e9f}",
+                "manualTimeDurationSeconds": -1,
+                "sceneIntExt": "INT",
+                "sceneLocation": "PARKING GARAGE",
+                "sceneTime": "NIGHT",
+                "state": "SnippetState.NoState",
+                "timeStamp": "2020-10-18T12:52:54Z",
+                "type": "DocumentType.UseDefault"
+            }
+        },
+        "storyLines": {
+            "{27b47742-023f-47c3-8ee2-bf9306a992b4}": {
+                "baseColor": "#ff457087",
+                "flags": "Flags.OF_None",
+                "hasBaseColor": false,
+                "id": "{27b47742-023f-47c3-8ee2-bf9306a992b4}",
+                "name": "First Block",
+                "padding": {
+                    "bottom": 50,
+                    "left": 75,
+                    "right": 75,
+                    "top": 50
+                },
+                "position": {
+                    "x": 0,
+                    "y": 0
+                },
+                "priority": 0,
+                "timeStamp": "2020-10-18T12:46:48Z"
+            }
+        },
+        "storyTracks": {
+            "{48d0ba3e-e008-44ac-ae3c-1d0414e662b3}": {
+                "colorA": "#ff007e15",
+                "colorB": "#ff000000",
+                "fillOpacity": 0.5,
+                "flags": "Flags.OF_None",
+                "fullName": "Main Character",
+                "id": "{48d0ba3e-e008-44ac-ae3c-1d0414e662b3}",
+                "shortName": "",
+                "strokeStyle": "StrokeStyle.Solid",
+                "strokeWidth": 1,
+                "timeStamp": "2020-10-18T12:46:48Z",
+                "type": "StoryTrackType.RegularStoryTrack"
+            }
+        },
+        "timeSlices": {
+            "{d8798473-5ce1-49e3-82c6-b004dc4b9b0d}": {
+                "approvedNeighbourAfter": "{00000000-0000-0000-0000-000000000000}",
+                "approvedNeighbourBefore": "{00000000-0000-0000-0000-000000000000}",
+                "flags": "Flags.OF_LockedScene",
+                "id": "{d8798473-5ce1-49e3-82c6-b004dc4b9b0d}",
+                "timeStamp": "2020-10-18T12:46:48Z",
+                "title": "",
+                "userDistance": 0
+            }
+        },
+        "trackGroups": {
+            "{93ad9a0c-40e6-495a-b8b1-a0ec226ec280}": {
+                "expanded": true,
+                "flags": "Flags.OF_None",
+                "id": "{93ad9a0c-40e6-495a-b8b1-a0ec226ec280}",
+                "name": "Characters",
+                "timeStamp": "2020-10-18T12:46:48Z",
+                "type": "TrackFolderType.RegularFolder"
+            }
+        },
+        "versionedSettings": {
+            "{03468ff1-410f-46e1-8a91-14d1d7dff7a4}": {
+                "flags": "Flags.OF_None",
+                "id": "{03468ff1-410f-46e1-8a91-14d1d7dff7a4}",
+                "snippetDisplayBig": "SnippetDisplay.NormalSnippets",
+                "snippetDisplaySmall": "SnippetDisplay.NormalSnippets",
+                "timeStamp": "2020-10-18T12:46:48Z"
+            }
+        }
+    },
+    "orderLinks": {
+        "researchObjects": [
+            {
+                "id1": "{a26d37ed-0284-4794-baa4-eec16fdf0e01}",
+                "id2": "{0b711093-2449-4a55-8e15-ae8cf926ac69}",
+                "timeStamp": "2020-10-18T12:46:48Z"
+            },
+            {
+                "id1": "{0b711093-2449-4a55-8e15-ae8cf926ac69}",
+                "id2": "{33bbbe72-204e-496c-882b-c3bc826dc862}",
+                "timeStamp": "2020-10-18T12:46:48Z"
+            },
+            {
+                "id1": "{33bbbe72-204e-496c-882b-c3bc826dc862}",
+                "id2": "{f7e1f53d-be1d-4e23-9ea5-8cb7876c9c04}",
+                "timeStamp": "2020-10-18T12:46:48Z"
+            }
+        ]
+    },
+    "settings": {
+        "colorCoding": "ColorCoding.Soft",
+        "currentFilter": {
+            "categories": [
+                {
+                    "filterType": "FilterType.Additive",
+                    "objectIds": [
+                    ],
+                    "objectType": "FilterObjectType.Lanes"
+                },
+                {
+                    "filterType": "FilterType.Additive",
+                    "objectIds": [
+                    ],
+                    "objectType": "FilterObjectType.Characters"
+                },
+                {
+                    "filterType": "FilterType.Additive",
+                    "objectIds": [
+                    ],
+                    "objectType": "FilterObjectType.Blocks"
+                },
+                {
+                    "filterType": "FilterType.Additive",
+                    "objectIds": [
+                    ],
+                    "objectType": "FilterObjectType.Tags"
+                },
+                {
+                    "filterType": "FilterType.Additive",
+                    "objectIds": [
+                    ],
+                    "objectType": "FilterObjectType.Timeslices"
+                }
+            ],
+            "id": "{861d0d52-7aa2-4582-9ca4-93cce1039ad8}",
+            "locationFilterAdditive": true,
+            "name": ""
+        },
+        "defaultSceneHeadingsLock3": true,
+        "documentType": "DocumentType.Screenplay",
+        "episodeFilter": [
+        ],
+        "filterDisplayMode": "TimeFrameUnits.PageUnits",
+        "filters": [
+        ],
+        "hideDisabledSnippets": false,
+        "hideEmptySnippets": false,
+        "hideSceneHeadings": false,
+        "highlightFilteredCharacters": false,
+        "languages": [
+            {
+                "presetId": "latin",
+                "variantId": "en_US"
+            }
+        ],
+        "locationFilterAdditive": true,
+        "maxTimeFrameCompleteLater": 100,
+        "maxTimeFrameSequential": 20,
+        "overallFontStyle": "OverallFontStyle.TypewriterFont",
+        "printSettings": {
+            "centerFooterTemplate": "",
+            "centerHeaderTemplate": "",
+            "dialogueBreakAtBottomText": "(MORE)",
+            "dialogueBreakAtTopText": "(CONT'D)",
+            "flags": "PrintSettingsFlags.PS_Defaults",
+            "footerDistanceFromBottomInches": 0.5,
+            "headerDistanceFromTopInches": 0.5,
+            "leftFooterTemplate": "",
+            "leftHeaderTemplate": "",
+            "pageSize": "PageSize.Letter",
+            "printLineScaleFactor": 1,
+            "rightFooterTemplate": "",
+            "rightHeaderTemplate": "{page}.",
+            "sceneBreakAtBottomText": "(CONTINUED)",
+            "sceneBreakAtTopText": "CONTINUED:",
+            "screenLineScaleFactor": 1,
+            "textBottomMarginInches": 1,
+            "textLeftMarginInches": 1.5,
+            "textRightMarginInches": 1,
+            "textTopMarginInches": 1
+        },
+        "selectedFilterId": "",
+        "showUnused": false,
+        "spellCheckDialogue": true,
+        "spellCheckerMode": "SpellCheckerMode.SmartSpellChecking",
+        "spellCheckingEnabled": true,
+        "standardMarginsBig": "Margins.Normal",
+        "standardMarginsSmall": "Margins.Normal",
+        "storyLogicScale": 1,
+        "storyPointColoring": "StoryPointColoring.ByCharacter",
+        "storylogicPosition": {
+            "x": 263,
+            "y": 288
+        },
+        "syncTimeline": true,
+        "tagBreakFilter": "TagBreakFilterFlags.TBF_Acts",
+        "textStyles": [
+            {
+                "align": "Alignment.AlignHCenter",
+                "background": "#ffffffff",
+                "bottomMarginEm": 0,
+                "builtinType": "BuiltinParagraphType.ActBreak",
+                "firstLineIndentInches": 0,
+                "font": {
+                    "allCaps": false,
+                    "bold": false,
+                    "families": [
+                    ],
+                    "italic": false,
+                    "pointSize": 24,
+                    "strikeOut": false,
+                    "underline": false
+                },
+                "foreground": "#ff000000",
+                "id": "actbreak",
+                "leftMarginInches": 0,
+                "lineScaleFactor": 1,
+                "name": "Act Break",
+                "pageBreak": "PageBreakType.UseWholePage",
+                "rightMarginInches": 0,
+                "shortcut": 0,
+                "topMarginEm": 4
+            },
+            {
+                "align": "Alignment.AlignLeft|AlignLeading",
+                "background": "#ffffffff",
+                "bottomMarginEm": 0,
+                "builtinType": "BuiltinParagraphType.Action",
+                "firstLineIndentInches": 0,
+                "font": {
+                    "allCaps": false,
+                    "bold": false,
+                    "families": [
+                    ],
+                    "italic": false,
+                    "pointSize": 12,
+                    "strikeOut": false,
+                    "underline": false
+                },
+                "foreground": "#ff000000",
+                "id": "action",
+                "leftMarginInches": 0,
+                "lineScaleFactor": 1,
+                "name": "Action",
+                "pageBreak": "PageBreakType.Continuous",
+                "rightMarginInches": 0,
+                "shortcut": 2,
+                "topMarginEm": 1
+            },
+            {
+                "align": "Alignment.AlignLeft|AlignLeading",
+                "background": "#ffffffff",
+                "bottomMarginEm": 1,
+                "builtinType": "BuiltinParagraphType.Book",
+                "firstLineIndentInches": 0,
+                "font": {
+                    "allCaps": false,
+                    "bold": false,
+                    "families": [
+                    ],
+                    "italic": false,
+                    "pointSize": 12,
+                    "strikeOut": false,
+                    "underline": false
+                },
+                "foreground": "#ff000000",
+                "id": "bookdefault",
+                "leftMarginInches": 0,
+                "lineScaleFactor": 1.3,
+                "name": "Book",
+                "pageBreak": "PageBreakType.Continuous",
+                "rightMarginInches": 0,
+                "shortcut": 0,
+                "topMarginEm": 0
+            },
+            {
+                "align": "Alignment.AlignHCenter",
+                "background": "#ffffffff",
+                "bottomMarginEm": 2,
+                "builtinType": "BuiltinParagraphType.ChapterBreak",
+                "firstLineIndentInches": 0,
+                "font": {
+                    "allCaps": false,
+                    "bold": false,
+                    "families": [
+                    ],
+                    "italic": false,
+                    "pointSize": 24,
+                    "strikeOut": false,
+                    "underline": false
+                },
+                "foreground": "#ff000000",
+                "id": "chapterbreak",
+                "leftMarginInches": 0,
+                "lineScaleFactor": 1,
+                "name": "Chapter Break",
+                "pageBreak": "PageBreakType.StartOnANewPage",
+                "rightMarginInches": 0,
+                "shortcut": 0,
+                "topMarginEm": 4
+            },
+            {
+                "align": "Alignment.AlignLeft|AlignLeading",
+                "background": "#ffffffff",
+                "bottomMarginEm": 0,
+                "builtinType": "BuiltinParagraphType.Character",
+                "firstLineIndentInches": 0,
+                "font": {
+                    "allCaps": true,
+                    "bold": false,
+                    "families": [
+                    ],
+                    "italic": false,
+                    "pointSize": 12,
+                    "strikeOut": false,
+                    "underline": false
+                },
+                "foreground": "#ff000000",
+                "id": "character",
+                "leftMarginInches": 2,
+                "lineScaleFactor": 1,
+                "name": "Character",
+                "pageBreak": "PageBreakType.Continuous",
+                "rightMarginInches": 0.25,
+                "shortcut": 3,
+                "topMarginEm": 1
+            },
+            {
+                "align": "Alignment.AlignLeft|AlignLeading",
+                "background": "#ffffffff",
+                "bottomMarginEm": 0,
+                "builtinType": "BuiltinParagraphType.Dialogue",
+                "firstLineIndentInches": 0,
+                "font": {
+                    "allCaps": false,
+                    "bold": false,
+                    "families": [
+                    ],
+                    "italic": false,
+                    "pointSize": 12,
+                    "strikeOut": false,
+                    "underline": false
+                },
+                "foreground": "#ff000000",
+                "id": "dialogue",
+                "leftMarginInches": 1,
+                "lineScaleFactor": 1,
+                "name": "Dialogue",
+                "pageBreak": "PageBreakType.Continuous",
+                "rightMarginInches": 1.5,
+                "shortcut": 5,
+                "topMarginEm": 0
+            },
+            {
+                "align": "Alignment.AlignHCenter",
+                "background": "#ffffffff",
+                "bottomMarginEm": 1,
+                "builtinType": "BuiltinParagraphType.FilterGap",
+                "firstLineIndentInches": 0,
+                "font": {
+                    "allCaps": false,
+                    "bold": false,
+                    "families": [
+                    ],
+                    "italic": false,
+                    "pointSize": 12,
+                    "strikeOut": false,
+                    "underline": false
+                },
+                "foreground": "#ff000000",
+                "id": "filtergap",
+                "leftMarginInches": 0,
+                "lineScaleFactor": 1,
+                "name": "Filter Gap",
+                "pageBreak": "PageBreakType.Continuous",
+                "rightMarginInches": 1,
+                "shortcut": 0,
+                "topMarginEm": 3
+            },
+            {
+                "align": "Alignment.AlignLeft|AlignLeading",
+                "background": "#ffffffff",
+                "bottomMarginEm": 0,
+                "builtinType": "BuiltinParagraphType.HeaderAndFooter",
+                "firstLineIndentInches": 0,
+                "font": {
+                    "allCaps": false,
+                    "bold": false,
+                    "families": [
+                    ],
+                    "italic": false,
+                    "pointSize": 12,
+                    "strikeOut": false,
+                    "underline": false
+                },
+                "foreground": "#ff000000",
+                "id": "headerandfooter",
+                "leftMarginInches": 0,
+                "lineScaleFactor": 1,
+                "name": "Header and Footer",
+                "pageBreak": "PageBreakType.Continuous",
+                "rightMarginInches": 0,
+                "shortcut": 0,
+                "topMarginEm": 0
+            },
+            {
+                "align": "Alignment.AlignLeft|AlignLeading",
+                "background": "#ffffffff",
+                "bottomMarginEm": 0,
+                "builtinType": "BuiltinParagraphType.Comment",
+                "firstLineIndentInches": 0,
+                "font": {
+                    "allCaps": false,
+                    "bold": false,
+                    "families": [
+                    ],
+                    "italic": false,
+                    "pointSize": 12,
+                    "strikeOut": false,
+                    "underline": false
+                },
+                "foreground": "#ff909090",
+                "id": "comment",
+                "leftMarginInches": 0,
+                "lineScaleFactor": 1,
+                "name": "Note",
+                "pageBreak": "PageBreakType.Continuous",
+                "rightMarginInches": 0,
+                "shortcut": 9,
+                "topMarginEm": 1
+            },
+            {
+                "align": "Alignment.AlignLeft|AlignLeading",
+                "background": "#ffffffff",
+                "bottomMarginEm": 0,
+                "builtinType": "BuiltinParagraphType.Novel",
+                "firstLineIndentInches": 0.4,
+                "font": {
+                    "allCaps": false,
+                    "bold": false,
+                    "families": [
+                    ],
+                    "italic": false,
+                    "pointSize": 12,
+                    "strikeOut": false,
+                    "underline": false
+                },
+                "foreground": "#ff000000",
+                "id": "noveldefault",
+                "leftMarginInches": 0,
+                "lineScaleFactor": 1.3,
+                "name": "Novel",
+                "pageBreak": "PageBreakType.Continuous",
+                "rightMarginInches": 0,
+                "shortcut": 0,
+                "topMarginEm": 0
+            },
+            {
+                "align": "Alignment.AlignHCenter",
+                "background": "#ffffffff",
+                "bottomMarginEm": 0,
+                "builtinType": "BuiltinParagraphType.PageBreak",
+                "firstLineIndentInches": 0,
+                "font": {
+                    "allCaps": false,
+                    "bold": false,
+                    "families": [
+                    ],
+                    "italic": false,
+                    "pointSize": 12,
+                    "strikeOut": false,
+                    "underline": false
+                },
+                "foreground": "#ff000000",
+                "id": "pagebreak",
+                "leftMarginInches": 0,
+                "lineScaleFactor": 1,
+                "name": "Page Break",
+                "pageBreak": "PageBreakType.Continuous",
+                "rightMarginInches": 0,
+                "shortcut": 0,
+                "topMarginEm": 0
+            },
+            {
+                "align": "Alignment.AlignLeft|AlignLeading",
+                "background": "#ffffffff",
+                "bottomMarginEm": 0,
+                "builtinType": "BuiltinParagraphType.Parenthetical",
+                "firstLineIndentInches": 0,
+                "font": {
+                    "allCaps": false,
+                    "bold": false,
+                    "families": [
+                    ],
+                    "italic": false,
+                    "pointSize": 12,
+                    "strikeOut": false,
+                    "underline": false
+                },
+                "foreground": "#ff000000",
+                "id": "parenthetical",
+                "leftMarginInches": 1.5,
+                "lineScaleFactor": 1,
+                "name": "Parenthetical",
+                "pageBreak": "PageBreakType.Continuous",
+                "rightMarginInches": 2,
+                "shortcut": 4,
+                "topMarginEm": 0
+            },
+            {
+                "align": "Alignment.AlignLeft|AlignLeading",
+                "background": "#ffffffff",
+                "bottomMarginEm": 0,
+                "builtinType": "BuiltinParagraphType.SceneBreak",
+                "firstLineIndentInches": 0,
+                "font": {
+                    "allCaps": false,
+                    "bold": false,
+                    "families": [
+                    ],
+                    "italic": false,
+                    "pointSize": 12,
+                    "strikeOut": false,
+                    "underline": false
+                },
+                "foreground": "#ff000000",
+                "id": "scenebreak",
+                "leftMarginInches": 0,
+                "lineScaleFactor": 1,
+                "name": "Scene Heading",
+                "pageBreak": "PageBreakType.Continuous",
+                "rightMarginInches": 0,
+                "shortcut": 0,
+                "topMarginEm": 2
+            },
+            {
+                "align": "Alignment.AlignLeft|AlignLeading",
+                "background": "#ffffffff",
+                "bottomMarginEm": 1,
+                "builtinType": "BuiltinParagraphType.SectionBreak",
+                "firstLineIndentInches": 0,
+                "font": {
+                    "allCaps": false,
+                    "bold": false,
+                    "families": [
+                    ],
+                    "italic": false,
+                    "pointSize": 18,
+                    "strikeOut": false,
+                    "underline": false
+                },
+                "foreground": "#ff000000",
+                "id": "sectionbreak",
+                "leftMarginInches": 0,
+                "lineScaleFactor": 1,
+                "name": "Section Break",
+                "pageBreak": "PageBreakType.Continuous",
+                "rightMarginInches": 0,
+                "shortcut": 0,
+                "topMarginEm": 2
+            },
+            {
+                "align": "Alignment.AlignLeft|AlignLeading",
+                "background": "#ffffffff",
+                "bottomMarginEm": 0,
+                "builtinType": "BuiltinParagraphType.Shot",
+                "firstLineIndentInches": 0,
+                "font": {
+                    "allCaps": true,
+                    "bold": false,
+                    "families": [
+                    ],
+                    "italic": false,
+                    "pointSize": 12,
+                    "strikeOut": false,
+                    "underline": false
+                },
+                "foreground": "#ff000000",
+                "id": "shot",
+                "leftMarginInches": 0,
+                "lineScaleFactor": 1,
+                "name": "Shot",
+                "pageBreak": "PageBreakType.Continuous",
+                "rightMarginInches": 0,
+                "shortcut": 7,
+                "topMarginEm": 1
+            },
+            {
+                "align": "Alignment.AlignLeft|AlignLeading",
+                "background": "#ffffffff",
+                "bottomMarginEm": 0,
+                "builtinType": "BuiltinParagraphType.SnippetTitle",
+                "firstLineIndentInches": 0,
+                "font": {
+                    "allCaps": false,
+                    "bold": false,
+                    "families": [
+                    ],
+                    "italic": false,
+                    "pointSize": 16,
+                    "strikeOut": false,
+                    "underline": false
+                },
+                "foreground": "#ff000000",
+                "id": "snippettitle",
+                "leftMarginInches": 0,
+                "lineScaleFactor": 1,
+                "name": "Snippet Title",
+                "pageBreak": "PageBreakType.Continuous",
+                "rightMarginInches": 0,
+                "shortcut": 0,
+                "topMarginEm": 1.5
+            },
+            {
+                "align": "Alignment.AlignHCenter",
+                "background": "#ffffffff",
+                "bottomMarginEm": 0,
+                "builtinType": "BuiltinParagraphType.TitlePageBody",
+                "firstLineIndentInches": 0,
+                "font": {
+                    "allCaps": false,
+                    "bold": false,
+                    "families": [
+                    ],
+                    "italic": false,
+                    "pointSize": 12,
+                    "strikeOut": false,
+                    "underline": false
+                },
+                "foreground": "#ff000000",
+                "id": "titlepagebody",
+                "leftMarginInches": 0,
+                "lineScaleFactor": 1,
+                "name": "Title Page Body",
+                "pageBreak": "PageBreakType.Continuous",
+                "rightMarginInches": 0,
+                "shortcut": 0,
+                "topMarginEm": 0
+            },
+            {
+                "align": "Alignment.AlignLeft|AlignLeading",
+                "background": "#ffffffff",
+                "bottomMarginEm": 0,
+                "builtinType": "BuiltinParagraphType.TitlePageBottomLeft",
+                "firstLineIndentInches": 0,
+                "font": {
+                    "allCaps": false,
+                    "bold": false,
+                    "families": [
+                    ],
+                    "italic": false,
+                    "pointSize": 12,
+                    "strikeOut": false,
+                    "underline": false
+                },
+                "foreground": "#ff000000",
+                "id": "titlepagebottomleft",
+                "leftMarginInches": 0,
+                "lineScaleFactor": 1,
+                "name": "Title Page Bottom Left",
+                "pageBreak": "PageBreakType.Continuous",
+                "rightMarginInches": 0,
+                "shortcut": 0,
+                "topMarginEm": 0
+            },
+            {
+                "align": "Alignment.AlignRight|AlignTrailing",
+                "background": "#ffffffff",
+                "bottomMarginEm": 0,
+                "builtinType": "BuiltinParagraphType.TitlePageBottomRight",
+                "firstLineIndentInches": 0,
+                "font": {
+                    "allCaps": false,
+                    "bold": false,
+                    "families": [
+                    ],
+                    "italic": false,
+                    "pointSize": 12,
+                    "strikeOut": false,
+                    "underline": false
+                },
+                "foreground": "#ff000000",
+                "id": "titlepagebottomright",
+                "leftMarginInches": 0,
+                "lineScaleFactor": 1,
+                "name": "Title Page Bottom Right",
+                "pageBreak": "PageBreakType.Continuous",
+                "rightMarginInches": 0,
+                "shortcut": 0,
+                "topMarginEm": 0
+            },
+            {
+                "align": "Alignment.AlignHCenter",
+                "background": "#ffffffff",
+                "bottomMarginEm": 0,
+                "builtinType": "BuiltinParagraphType.TitlePageTitle",
+                "firstLineIndentInches": 0,
+                "font": {
+                    "allCaps": false,
+                    "bold": false,
+                    "families": [
+                    ],
+                    "italic": false,
+                    "pointSize": 20,
+                    "strikeOut": false,
+                    "underline": false
+                },
+                "foreground": "#ff000000",
+                "id": "titlepagetitle",
+                "leftMarginInches": 0,
+                "lineScaleFactor": 1,
+                "name": "Title Page Title",
+                "pageBreak": "PageBreakType.Continuous",
+                "rightMarginInches": 0,
+                "shortcut": 0,
+                "topMarginEm": 0
+            },
+            {
+                "align": "Alignment.AlignRight|AlignTrailing",
+                "background": "#ffffffff",
+                "bottomMarginEm": 0,
+                "builtinType": "BuiltinParagraphType.Transition",
+                "firstLineIndentInches": 0,
+                "font": {
+                    "allCaps": true,
+                    "bold": false,
+                    "families": [
+                    ],
+                    "italic": false,
+                    "pointSize": 12,
+                    "strikeOut": false,
+                    "underline": false
+                },
+                "foreground": "#ff000000",
+                "id": "transition",
+                "leftMarginInches": 4,
+                "lineScaleFactor": 1,
+                "name": "Transition",
+                "pageBreak": "PageBreakType.Continuous",
+                "rightMarginInches": 0.4,
+                "shortcut": 6,
+                "topMarginEm": 1
+            },
+            {
+                "align": "Alignment.AlignHCenter",
+                "background": "#ffffffff",
+                "bottomMarginEm": 0,
+                "builtinType": "BuiltinParagraphType.VolumeOrEpisodeBreak",
+                "firstLineIndentInches": 0,
+                "font": {
+                    "allCaps": false,
+                    "bold": false,
+                    "families": [
+                    ],
+                    "italic": false,
+                    "pointSize": 24,
+                    "strikeOut": false,
+                    "underline": false
+                },
+                "foreground": "#ff000000",
+                "id": "volumebreak",
+                "leftMarginInches": 0,
+                "lineScaleFactor": 1,
+                "name": "Volume/Episode Break",
+                "pageBreak": "PageBreakType.UseWholePage",
+                "rightMarginInches": 0.5,
+                "shortcut": 0,
+                "topMarginEm": 4
+            }
+        ],
+        "timeBaseCursor": "TimeFrameUnits.EventUnits",
+        "timeBaseCursor2": "TimeFrameUnits.SecondUnits",
+        "timelineColorCoding": "ColorCoding.Soft",
+        "timelineSnippetLines": 2,
+        "trackSequenceChanges": false,
+        "visibleTracksMiniTimeline": "VisibleTracks.MiniDefaults",
+        "visibleTracksRegularTimeline": "VisibleTracks.RegularDefaults|MiniDefaults",
+        "wordList": [
+        ],
+        "zoomFactorBig": 1,
+        "zoomFactorSmall": 1,
+        "zoomType": "ZoomType.NormalZoom"
+    },
+    "timeStamp": "2020-10-19T18:44:19Z"
+}

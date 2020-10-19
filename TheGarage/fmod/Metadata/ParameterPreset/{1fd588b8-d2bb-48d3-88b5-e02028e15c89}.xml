@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="ParameterPreset" id="{1fd588b8-d2bb-48d3-88b5-e02028e15c89}">
+		<property name="name">
+			<value>Monster Sound</value>
+		</property>
+		<relationship name="folder">
+			<destination>{ee12c88f-0ac2-48b1-b7e3-9232a0f650d9}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{e05692fe-2e20-4cfd-960d-55522cfb148b}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{e05692fe-2e20-4cfd-960d-55522cfb148b}">
+		<property name="parameterType">
+			<value>2</value>
+		</property>
+		<property name="maximum">
+			<value>2</value>
+		</property>
+		<property name="enumerationLabels">
+			<value>No Monster</value>
+			<value>Moster</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

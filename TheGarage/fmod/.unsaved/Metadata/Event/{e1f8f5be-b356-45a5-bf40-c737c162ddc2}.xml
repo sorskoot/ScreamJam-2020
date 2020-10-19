@@ -394,7 +394,11 @@
 			<destination>{643e1062-4ac4-4c45-a00d-7b7f98256960}</destination>
 		</relationship>
 	</object>
-	<object class="MixerBusPanner" id="{5518dcc1-a282-4f3d-94ad-b2d88be6490e}" />
+	<object class="MixerBusPanner" id="{5518dcc1-a282-4f3d-94ad-b2d88be6490e}">
+		<property name="surroundPanDirection">
+			<value>-26.565052</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{b125f964-fe4c-43cf-b417-ab07a185b262}" />
 	<object class="FadeCurve" id="{48faf7e6-5ccf-4a43-9987-a5059a95d7b5}">
 		<relationship name="startPoint">
@@ -758,6 +762,9 @@
 		</property>
 	</object>
 	<object class="SpatialiserEffect" id="{643e1062-4ac4-4c45-a00d-7b7f98256960}">
+		<property name="bypass">
+			<value>true</value>
+		</property>
 		<property name="maximumDistance">
 			<value>1</value>
 		</property>

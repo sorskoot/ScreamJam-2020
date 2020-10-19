@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{1462c2ef-dafc-48de-8c36-065d8b252c4a}">
+		<property name="assetPath">
+			<value>Monster/Huge Monster Scream 2.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>5.3220625000000004</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{7b4338dc-cb63-4e76-8b3a-689d8b44ddcd}</destination>
+		</relationship>
+	</object>
+</objects>
