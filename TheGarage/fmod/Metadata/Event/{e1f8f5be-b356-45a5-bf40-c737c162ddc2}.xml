@@ -5,7 +5,7 @@
 			<value>Attack</value>
 		</property>
 		<property name="outputFormat">
-			<value>2</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{fe78a0bc-9364-499c-ba45-0f5dbfc8f267}</destination>
@@ -120,6 +120,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{244dd624-e43f-4f30-98e8-469295cf47fc}">
+		<property name="volume">
+			<value>4</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{285c746b-b4fb-4235-b449-72cd687fee4c}</destination>
 		</relationship>
@@ -391,7 +394,7 @@
 			<destination>{2c948a00-16b9-4ed0-8812-02dec2c7663b}</destination>
 			<destination>{56923417-dc4e-4034-b6fa-98e3712c6954}</destination>
 			<destination>{c11bf7f3-d697-4e91-bbf9-25324e24c9d9}</destination>
-			<destination>{643e1062-4ac4-4c45-a00d-7b7f98256960}</destination>
+			<destination>{20cb9cd8-c3bc-4b4e-a744-1aa022a51dd3}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{5518dcc1-a282-4f3d-94ad-b2d88be6490e}">
@@ -761,18 +764,9 @@
 			<value>3600</value>
 		</property>
 	</object>
-	<object class="SpatialiserEffect" id="{643e1062-4ac4-4c45-a00d-7b7f98256960}">
-		<property name="bypass">
-			<value>true</value>
-		</property>
-		<property name="maximumDistance">
-			<value>1</value>
-		</property>
-		<property name="soundSize">
-			<value>40</value>
-		</property>
-		<property name="minimumExtent">
-			<value>360</value>
+	<object class="LimiterEffect" id="{20cb9cd8-c3bc-4b4e-a744-1aa022a51dd3}">
+		<property name="boost">
+			<value>4.69999981</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{54e78bf8-7229-4b4b-a057-86adcae32f74}">
