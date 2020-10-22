@@ -3,11 +3,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.XR.Interaction.Toolkit;
-
-[RequireComponent(typeof(Animator))]
 public class DoorInteractor : XRBaseInteractable
 {
-
     [SerializeField] private bool isOpen = false;
     [SerializeField] private Animator animator;
     private static readonly int IsOpen = Animator.StringToHash("IsOpen");
